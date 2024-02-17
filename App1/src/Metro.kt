@@ -11,7 +11,7 @@ fun main() {
     val start = readLine()
     println("Enter your end station")
     val end = readLine()
-    if(start in stations || end in stations)
+    if(start !in stations || end !in stations || stations.indexOf(start)==stations.indexOf(end))
     {
         println("You have entered wrong input. Please enter valid station names.")
         return
