@@ -27,14 +27,14 @@ fun main() {
         println("Start and end stations cannot be the same.")
         return
     }
-    val sameLine = when {
+    val same = when {
         start in stations1 && end in stations1 -> true
         start in stations2 && end in stations2 -> true
         start in stations3 && end in stations3 -> true
         else -> false
     }
-    if (!sameLine) {
-        println("You have entered stations on different lines. Print when it same line")
+    if (!same) {
+        println("You have entered stations on different lines.")
         return
     }
     val stations = when {
