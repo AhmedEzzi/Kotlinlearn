@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id endTxtbox
+id lanResult
+id startBtn
+id startTxtbox
+id textView
+id textView2
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.MetroApp
+style Theme.MetroApp
+xml backup_rules
+xml data_extraction_rules
